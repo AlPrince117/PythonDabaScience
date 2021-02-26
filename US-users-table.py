@@ -15,7 +15,7 @@ cur.execute("CREATE SCHEMA IF NOT EXISTS ususers")
 cur.execute("SET search_path TO ususers")
 
 
-sql = """CREATE TABLE n users (
+sql = """CREATE TABLE users (
     first_name              varchar(20) not null,
     last_name               varchar(20) not null,           
     address                 varchar(50) not null,           
